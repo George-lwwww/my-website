@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bruh</title>
+    <title>responsive pricing table</title>
+    <style>
+        .pricing {
+            display:flex;
+            gap: 10px;
+            justify-content:center;
+            flex-wrap: wrap;
+            padding: 20px;
+
+        }
+        .plan {
+            background:#f4f4f4;
+            padding: 20px;
+            text-align:center;
+            border-radius:5px;
+            width: 300px;
+
+        }
+        .plan h2 {
+            background: #333;
+            color:white;
+            padding: 10px;
+
+        }
+        .price {
+            font-size: 24px;
+            margin:20px 0;
+
+        }
+    </style>
 </head>
-
 <body>
-    <h1>lil gay boy marv from spain</h1>
+    <h1>made for the lovely marv</h1>
+    <div class="pricing">
+        <div class="plan">
+            <h2>Basic diddy treatment</h2>
+            <p class="price">&euro;10/month</p>
+            <p>prosbasi se basikes leitourgies</p>
+        </div>
+        <div class="plan">
+            <h2>premium diddy treatment</h2>
+            <p class="price">&euro;90/month</p>
+            <p>hell yeah  </p>
+        </div>
+    </div>
+    
 </body>
-
 </html>
